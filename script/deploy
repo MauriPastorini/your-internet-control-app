@@ -2,7 +2,7 @@
 ssh mauriadmin@35.184.106.52 <<EOF
  cd ~/your-internet-control-app
  git pull
- npm install — production
+ npm install
  pm2 restart all
  exit
 EOF
